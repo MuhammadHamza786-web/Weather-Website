@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top:50px;   
+
+}
+label input{
+    width: 500px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    
+ }
+ button{
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+ 
