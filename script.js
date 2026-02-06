@@ -24,12 +24,19 @@ function weather$web() {
             </h1>  
             
             <div class="weatherDetails">
-                <p class="para1"> 
+            h2> 
                 ${response.current.temp_f}
-                </p>
+                <sup>°F</sup>
+                </h2>
                 
             </div>         
             </div>
+            <h2>
+            ${response.location.name}
+            <span>
+            ${response.location.region}/${response.location.country}
+             </span>
+            </h2>
 
         </div>`
 
