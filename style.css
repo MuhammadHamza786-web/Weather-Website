@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-image: url(https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@ body{
     padding: 0;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -20,23 +20,26 @@ h1{
     color: #00ffff;
     font-size: 50px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    margin-top:50px;   
+    align-items: center;
+    margin-top: 50px;
 
 }
-label input{
+
+label input {
     width: 500px;
     height: 45px;
     border-radius: 15px;
     text-align: center;
     border: none;
     outline: none;
-    
- }
- button{
+
+}
+
+button {
     display: block;
     margin: 0 auto;
     padding: 15px;
@@ -47,17 +50,36 @@ label input{
     background-color: whitesmoke;
     transition: all 0.4s ease-in-out;
 
-    
 }
- button:hover{
+
+button:hover {
     background-color: thistle;
-    color:antiquewhite;
- }
-#output{
-border: 1px solid black;
-height: 500px;
-width: 500px;
+    color: antiquewhite;
 }
- .result{
+
+#output {
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
     text-align: center;
- }
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+}
+
+.result {
+
+    text-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.weatherDetails p {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}

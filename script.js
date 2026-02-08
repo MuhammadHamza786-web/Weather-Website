@@ -1,7 +1,4 @@
-// function weather$web(){
-//     let weather_web =document.getElementById("Weather").value
-//     console.log(weather_web)
-// }
+
 function weather$web() {
     let city = document.getElementById("cityName").value;
 
@@ -18,28 +15,46 @@ function weather$web() {
             <div class="image">
           
           <img src="https:${response.current.condition.icon}" alt="weather icon">
+          </div>         
+          <br>
           
-          ${response.current.temp_c}
-                <sup>°C</sup>
         
             
-            <div class="weatherDetails">
+        <div class="weatherDetails">
+        
+          <p>Temperature °C 🌡️:
+          ${response.current.temp_c}
+          
+          <sup>°C</sup>
+          </p> 
+          <br>
+            <p>Temperature °F 🌡️:
+            
+            ${response.current.temp_f}
+            
+            <sup>°F</sup>
 
-                ${response.current.temp_f}
-
-                <sup>°F</sup>
-
-                
-                
-            </div>         
-            </div>
-            <h2>
+            </p>
+           <br> 
+               <h2>
             ${response.location.name}
+            <br>
             <span>
             ${response.location.region}/${response.location.country}
              </span>
             </h2>
-
+            <br>
+            <p>
+            Latitude:
+            ${response.location.lat}
+            </p>
+            <br>
+            <p>
+            Longitude:
+            ${response.location.lon}
+            </p>
+            </div>
+              
         </div>`
 
     }).catch(error => {
