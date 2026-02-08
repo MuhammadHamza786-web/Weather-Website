@@ -18,16 +18,18 @@ function weather$web() {
             <div class="image">
           
           <img src="https:${response.current.condition.icon}" alt="weather icon">
-          <h1>
+          
           ${response.current.temp_c}
                 <sup>°C</sup>
-            </h1>  
+        
             
             <div class="weatherDetails">
-            h2> 
+
                 ${response.current.temp_f}
+
                 <sup>°F</sup>
-                </h2>
+
+                
                 
             </div>         
             </div>

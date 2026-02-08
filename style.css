@@ -53,6 +53,11 @@ label input{
     background-color: thistle;
     color:antiquewhite;
  }
+#output{
+border: 1px solid black;
+height: 500px;
+width: 500px;
+}
  .result{
     text-align: center;
  }
